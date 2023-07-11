@@ -51,9 +51,11 @@ gap: 10px;
 border-radius: 8px;
 background: #E55473;
 border: none;
+font-size: 20px;
 }
 .btn a{
     color: #fff;
+    font-size: 20px;
 }
 /* main part */
 /* showcase part */
@@ -62,6 +64,15 @@ border: none;
     justify-content: center;
     align-items: center;
     /* padding: 0px auto; */
+}
+.showcase >.showcase-description{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+    margin-right: auto;
+
 }
 .showcase-title{
     color: #272727;
@@ -77,6 +88,8 @@ padding-bottom: 24px;
 .showcase-description{
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 width: 594px;
 flex-direction: column;
 flex-shrink: 0;
@@ -87,6 +100,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
+padding-bottom: 28px;
 
 }
 .flower{
@@ -108,12 +122,8 @@ padding: 110px 78px 0px 78px;
     align-items: center;
     gap: 24px;
 }
-.showcase-description{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-
+.flower p{
+    text-decoration: none;
 }
 .flower-description{
     padding-top: 32px;
@@ -302,7 +312,7 @@ margin-top: 50px;
 .footer-content{
     background: #111010;
     width: 1922px;
-height: 320px;
+height: 349px;
 flex-shrink: 0;
 display: flex;
 flex-direction: column;
